@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: #cccccc;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #eee12a;
+    text-decoration: underline;
+}
+
+
+#banner{
+    width: 100%;
+}
+
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+
+
+.tituloPrincipal{
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+
+.tituloCentrado{
+    font-family: Georgia;
+    text-align: center;
+}
+
+p{
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
+}
+
+p em {
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+p em strong{
+    font-family: Verdana;
+    color:red;
+}
+
+.diferenciales{
+    font-family: Verdana;
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+    font-family: Verdana;
+}
+
+.titems{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.imagendiferenciales{
+    width: 50%;
+
+}
+
+footer{
+    text-align: center;
+    font-family: Georgia;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 13px;
+
+}

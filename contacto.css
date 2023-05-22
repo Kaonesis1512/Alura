@@ -1,0 +1,52 @@
+
+header{
+    background: #cccccc;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #eee12a;
+    text-decoration: underline;
+}
+
+
+
+footer{
+    text-align: center;
+    font-family: Georgia;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 13px;
+
+}
